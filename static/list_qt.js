@@ -53,7 +53,7 @@ class QuestionTable {
     
     // Twitter投稿リンク作成
     var qtUrl = "https://" + location.hostname + "/qt/" + key;
-    var statusText = `${qtUrl}\nQ: ${content}\nA: `;
+    var statusText = `${qtUrl}\nQ: ${content}\nA: \n#らむだの質問箱`;
     var tweetLink = "https://twitter.com/?status=" + encodeURIComponent(statusText);
     
     var template = 
