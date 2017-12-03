@@ -1,0 +1,32 @@
+
+@media (min-width: 750px) {
+  html, body, .container-width {
+    width: 512px;
+    margin-right: auto;
+    margin-left: auto;
+  }  
+}
+
+p {
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+}
+
+.qt-box{
+  text-align: center;
+}
+.qt-box-text {
+  resize: none;
+  margin-bottom: 10px;
+}
+
+.what {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
