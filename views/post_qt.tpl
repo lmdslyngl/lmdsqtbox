@@ -52,7 +52,8 @@
       </div>
       
       <div class="footer">
-        <p>2017 らむだ (<a href="https://twitter.com/dn_lmds_gl">@dn_lmds_gl</a>)</p>
+        <p>2017 らむだ (<a href="https://twitter.com/dn_lmds_gl">@dn_lmds_gl</a>) |
+          <a href="https://github.com/lmdslyngl/lmdsqtbox">GitHub</a></p>
       </div>
       
     </div>
