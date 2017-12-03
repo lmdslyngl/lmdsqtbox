@@ -51,11 +51,17 @@ class QuestionTable {
     // 改行を<br>タグにする
     content = content.replace(/\n/g, "<br>");
     
+    // Twitter投稿リンク作成
+    var qtUrl = "https://" + location.hostname + "/qt/" + key;
+    var statusText = `${qtUrl}\nQ: ${content}\nA: `;
+    var tweetLink = "https://twitter.com/?status=" + encodeURIComponent(statusText);
+    
     var template = 
         `<td>${date}</td>`
       + `<td>${content}</td>`
       + `<td style="text-align: right">`
       +   `<a href="/qt/${key}" class="btn btn-xs btn-default">open</a>`
+      +   `<a href="${tweetLink}" target="_blank" class="btn btn-xs btn-default">post</a>`
       +   `<button `
       +     `class="btn btn-xs btn-danger" `
       +     `data-key="${key}">`
